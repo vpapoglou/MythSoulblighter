@@ -38,9 +38,11 @@
             // 
             // JournalPictureBox
             // 
-            this.JournalPictureBox.Location = new System.Drawing.Point(390, 2);
+            this.JournalPictureBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.JournalPictureBox.Location = new System.Drawing.Point(207, 11);
             this.JournalPictureBox.Name = "JournalPictureBox";
-            this.JournalPictureBox.Size = new System.Drawing.Size(428, 374);
+            this.JournalPictureBox.Size = new System.Drawing.Size(753, 539);
+            this.JournalPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.JournalPictureBox.TabIndex = 0;
             this.JournalPictureBox.TabStop = false;
             // 
@@ -51,12 +53,12 @@
             this.txtJournal.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtJournal.Font = new System.Drawing.Font("MS Gothic", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtJournal.ForeColor = System.Drawing.SystemColors.Window;
-            this.txtJournal.Location = new System.Drawing.Point(390, 562);
+            this.txtJournal.Location = new System.Drawing.Point(207, 648);
             this.txtJournal.Multiline = true;
             this.txtJournal.Name = "txtJournal";
             this.txtJournal.ReadOnly = true;
             this.txtJournal.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtJournal.Size = new System.Drawing.Size(428, 219);
+            this.txtJournal.Size = new System.Drawing.Size(753, 133);
             this.txtJournal.TabIndex = 3;
             // 
             // cmbJournal
@@ -66,7 +68,7 @@
             this.cmbJournal.FormattingEnabled = true;
             this.cmbJournal.Items.AddRange(new object[] {
             "Willow Creek"});
-            this.cmbJournal.Location = new System.Drawing.Point(527, 432);
+            this.cmbJournal.Location = new System.Drawing.Point(514, 555);
             this.cmbJournal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbJournal.Name = "cmbJournal";
             this.cmbJournal.Size = new System.Drawing.Size(174, 24);
@@ -116,6 +118,7 @@
             this.Controls.Add(this.JournalPictureBox);
             this.Name = "JournalForm";
             this.Text = "JournalForm";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.JournalForm_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.JournalPictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

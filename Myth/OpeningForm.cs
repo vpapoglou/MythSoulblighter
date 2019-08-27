@@ -13,6 +13,7 @@ namespace Myth
 {
     public partial class OpeningForm : Form
     {
+        
         public OpeningForm()
         {
             InitializeComponent();
@@ -25,15 +26,7 @@ namespace Myth
 
         private void OpeningForm_Load(object sender, EventArgs e)
         {
-            PlayFile(@"C:/Users/Papoglou/source/repos/Myth/images/MainMenu.wav");
-        }
-
-        void PlayFile(String url)
-        {
-            SoundPlayer player = new SoundPlayer();
-            player.SoundLocation = url;
-            //player.Play();
-            //player.PlayLooping();
+            Program.PlayFile(@"C:/Users/Papoglou/source/repos/Myth/images/MainMenu.mp3");
         }
 
         private void BtnUnits_Click(object sender, EventArgs e)
