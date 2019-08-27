@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OpeningForm));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnOpening = new System.Windows.Forms.Button();
-            this.btnCredits = new System.Windows.Forms.Button();
+            this.btnUnits = new System.Windows.Forms.Button();
+            this.btnJournal = new System.Windows.Forms.Button();
             this.btnMap = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -49,37 +49,38 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.PictureBox1_Click);
             // 
-            // btnOpening
+            // btnUnits
             // 
-            this.btnOpening.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.btnOpening.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnOpening.BackColor = System.Drawing.Color.Black;
-            this.btnOpening.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnOpening.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnOpening.Font = new System.Drawing.Font("MS Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOpening.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.btnOpening.Location = new System.Drawing.Point(517, 421);
-            this.btnOpening.Name = "btnOpening";
-            this.btnOpening.Size = new System.Drawing.Size(201, 49);
-            this.btnOpening.TabIndex = 1;
-            this.btnOpening.Text = "Continue";
-            this.btnOpening.UseVisualStyleBackColor = false;
-            this.btnOpening.Click += new System.EventHandler(this.BtnOpening_Click);
+            this.btnUnits.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.btnUnits.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnUnits.BackColor = System.Drawing.Color.Black;
+            this.btnUnits.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnUnits.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnUnits.Font = new System.Drawing.Font("MS Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUnits.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.btnUnits.Location = new System.Drawing.Point(517, 494);
+            this.btnUnits.Name = "btnUnits";
+            this.btnUnits.Size = new System.Drawing.Size(201, 49);
+            this.btnUnits.TabIndex = 1;
+            this.btnUnits.Text = "Units";
+            this.btnUnits.UseVisualStyleBackColor = false;
+            this.btnUnits.Click += new System.EventHandler(this.BtnUnits_Click);
             // 
-            // btnCredits
+            // btnJournal
             // 
-            this.btnCredits.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.btnCredits.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnCredits.BackColor = System.Drawing.Color.Black;
-            this.btnCredits.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCredits.Font = new System.Drawing.Font("MS Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCredits.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.btnCredits.Location = new System.Drawing.Point(517, 554);
-            this.btnCredits.Name = "btnCredits";
-            this.btnCredits.Size = new System.Drawing.Size(201, 51);
-            this.btnCredits.TabIndex = 3;
-            this.btnCredits.Text = "Credits";
-            this.btnCredits.UseVisualStyleBackColor = false;
+            this.btnJournal.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.btnJournal.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnJournal.BackColor = System.Drawing.Color.Black;
+            this.btnJournal.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnJournal.Font = new System.Drawing.Font("MS Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnJournal.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.btnJournal.Location = new System.Drawing.Point(517, 428);
+            this.btnJournal.Name = "btnJournal";
+            this.btnJournal.Size = new System.Drawing.Size(201, 51);
+            this.btnJournal.TabIndex = 3;
+            this.btnJournal.Text = "Journal";
+            this.btnJournal.UseVisualStyleBackColor = false;
+            this.btnJournal.Click += new System.EventHandler(this.BtnJournal_Click);
             // 
             // btnMap
             // 
@@ -89,7 +90,7 @@
             this.btnMap.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnMap.Font = new System.Drawing.Font("MS Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMap.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.btnMap.Location = new System.Drawing.Point(517, 485);
+            this.btnMap.Location = new System.Drawing.Point(517, 549);
             this.btnMap.Name = "btnMap";
             this.btnMap.Size = new System.Drawing.Size(201, 51);
             this.btnMap.TabIndex = 4;
@@ -111,6 +112,7 @@
             this.btnExit.TabIndex = 5;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.BtnExit_Click);
             // 
             // OpeningForm
             // 
@@ -120,8 +122,8 @@
             this.ClientSize = new System.Drawing.Size(1240, 797);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnMap);
-            this.Controls.Add(this.btnCredits);
-            this.Controls.Add(this.btnOpening);
+            this.Controls.Add(this.btnJournal);
+            this.Controls.Add(this.btnUnits);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "OpeningForm";
@@ -136,8 +138,8 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btnOpening;
-        private System.Windows.Forms.Button btnCredits;
+        private System.Windows.Forms.Button btnUnits;
+        private System.Windows.Forms.Button btnJournal;
         private System.Windows.Forms.Button btnMap;
         private System.Windows.Forms.Button btnExit;
     }

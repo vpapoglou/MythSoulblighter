@@ -17,5 +17,12 @@ namespace Myth
         public static string[] Warrior = new string[] { };
         public static string[] Archer = new string[] { };
         public static string[] Dwarf = new string[] { };
+
+        public static string[] WillowCreek = new string[] {"C:/Users/Papoglou/source/repos/Myth/images/WillowCreek/WillowCreek.txt",
+                                                           "C:/Users/Papoglou/source/repos/Myth/images/WillowCreek/WillowCreekNarration.mp3",
+                                                           "C:/Users/Papoglou/source/repos/Myth/images/WillowCreek/1.jpg",
+                                                           "C:/Users/Papoglou/source/repos/Myth/images/WillowCreek/2.jpg",
+                                                           "C:/Users/Papoglou/source/repos/Myth/images/WillowCreek/3.jpg",
+                                                           "C:/Users/Papoglou/source/repos/Myth/images/WillowCreek/4.jpg"};
     }
 }

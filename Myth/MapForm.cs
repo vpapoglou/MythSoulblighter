@@ -21,5 +21,17 @@ namespace Myth
         {
             Application.Exit();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            OpeningForm menu = new OpeningForm();
+            menu.Show();
+        }
+
+        private void BtnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

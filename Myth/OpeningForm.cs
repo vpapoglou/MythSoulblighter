@@ -32,11 +32,11 @@ namespace Myth
         {
             SoundPlayer player = new SoundPlayer();
             player.SoundLocation = url;
-            player.PlayLooping();
-            player.Play();
+            //player.Play();
+            //player.PlayLooping();
         }
 
-        private void BtnOpening_Click(object sender, EventArgs e)
+        private void BtnUnits_Click(object sender, EventArgs e)
         {
             this.Hide();
             Form1 form1 = new Form1();
@@ -48,6 +48,18 @@ namespace Myth
             this.Hide();
             MapForm mapForm = new MapForm();
             mapForm.Show();
+        }
+
+        private void BtnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void BtnJournal_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            JournalForm journalForm = new JournalForm();
+            journalForm.Show();
         }
     }
 }
