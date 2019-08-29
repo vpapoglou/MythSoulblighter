@@ -24,5 +24,13 @@ namespace Myth
                                                            "C:/Users/Papoglou/source/repos/Myth/images/WillowCreek/2.jpg",
                                                            "C:/Users/Papoglou/source/repos/Myth/images/WillowCreek/3.jpg",
                                                            "C:/Users/Papoglou/source/repos/Myth/images/WillowCreek/4.jpg"};
+        public static string[] Salvation = new string[] {"C:/Users/Papoglou/source/repos/Myth/images/Salvation/Salvation.txt",
+                                                           "C:/Users/Papoglou/source/repos/Myth/images/Salvation/SalvationNarration.mp3",
+                                                           "C:/Users/Papoglou/source/repos/Myth/images/Salvation/1.jpg",
+                                                           "C:/Users/Papoglou/source/repos/Myth/images/Salvation/2.jpg",
+                                                           "C:/Users/Papoglou/source/repos/Myth/images/Salvation/3.jpg",
+                                                           "C:/Users/Papoglou/source/repos/Myth/images/Salvation/4.jpg",
+                                                           "C:/Users/Papoglou/source/repos/Myth/images/Salvation/5.jpg",
+                                                           "C:/Users/Papoglou/source/repos/Myth/images/Salvation/6.jpg"};
     }
 }

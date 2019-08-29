@@ -67,13 +67,15 @@
             this.cmbJournal.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbJournal.FormattingEnabled = true;
             this.cmbJournal.Items.AddRange(new object[] {
-            "Willow Creek"});
+            "Willow Creek",
+            "Salvation"});
             this.cmbJournal.Location = new System.Drawing.Point(514, 555);
             this.cmbJournal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbJournal.Name = "cmbJournal";
             this.cmbJournal.Size = new System.Drawing.Size(174, 24);
             this.cmbJournal.TabIndex = 2;
             this.cmbJournal.SelectedIndexChanged += new System.EventHandler(this.CmbUnits_SelectedIndexChanged);
+            this.cmbJournal.DropDownClosed += new System.EventHandler(this.CmbJournal_DropDownClosed);
             // 
             // btnExit
             // 
@@ -118,6 +120,7 @@
             this.Controls.Add(this.JournalPictureBox);
             this.Name = "JournalForm";
             this.Text = "JournalForm";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.JournalForm_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.JournalPictureBox)).EndInit();
             this.ResumeLayout(false);
