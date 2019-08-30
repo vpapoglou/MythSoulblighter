@@ -75,7 +75,6 @@
             this.cmbJournal.Size = new System.Drawing.Size(174, 24);
             this.cmbJournal.TabIndex = 2;
             this.cmbJournal.SelectedIndexChanged += new System.EventHandler(this.CmbUnits_SelectedIndexChanged);
-            this.cmbJournal.DropDownClosed += new System.EventHandler(this.CmbJournal_DropDownClosed);
             // 
             // btnExit
             // 

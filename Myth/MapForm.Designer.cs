@@ -40,7 +40,7 @@
             this.MapPictureBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.MapPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.MapPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("MapPictureBox.Image")));
-            this.MapPictureBox.Location = new System.Drawing.Point(262, 2);
+            this.MapPictureBox.Location = new System.Drawing.Point(207, 2);
             this.MapPictureBox.Name = "MapPictureBox";
             this.MapPictureBox.Size = new System.Drawing.Size(629, 409);
             this.MapPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -55,7 +55,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("MS Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button1.Location = new System.Drawing.Point(1019, 566);
+            this.button1.Location = new System.Drawing.Point(910, 456);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(97, 44);
             this.button1.TabIndex = 7;
@@ -71,7 +71,7 @@
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnExit.Font = new System.Drawing.Font("MS Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.btnExit.Location = new System.Drawing.Point(1019, 633);
+            this.btnExit.Location = new System.Drawing.Point(910, 523);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(97, 44);
             this.btnExit.TabIndex = 8;
@@ -83,7 +83,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1156, 709);
+            this.ClientSize = new System.Drawing.Size(1047, 599);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.MapPictureBox);
